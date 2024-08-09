@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chiranjeevi Sadana</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+            position: relative;
+        }
+        header img {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            border-radius: 50%;
+            width: 100px;
+            height: 100px;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #444;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 1000;
+        }
+        nav a {
+            color: #fff;
+            padding: 1rem;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        nav a:hover {
+            background: #555;
+        }
+        .content {
+            padding-top: 5rem; /* Adjust padding to avoid overlap with fixed nav */
+        }
+        .fixed-section {
+            position: fixed;
+            top: 5rem; /* Adjust to match the height of the nav */
+            left: 0;
+            width: 100%;
+            background: #fff;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+            z-index: 999;
+        }
+        .container {
+            margin: auto;
+            padding: 2rem 0;
+        }
+        .section {
+            padding: 2rem;
+            margin-bottom: 1rem;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        .section h2 {
+            margin-top: 0;
+        }
+        .footer {
+            background: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            margin-top: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="photo.jpg" alt="Chiranjeevi Sadana">
+        <h1>Chiranjeevi Sadana</h1>
+        <p>Email: <a href="mailto:chirusmailbox@gmail.com">chirusmailbox@gmail.com</a> | Mobile: +91-8143723098</p>
+        <p>LinkedIn: <a href="https://www.linkedin.com/in/chirusadana/" target="_blank">chirusadana</a></p>
+    </header>
+    <nav>
+        <a href="#about">About</a>
+        <a href="#education">Education</a>
+        <a href="#skills">Skills</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#awards">Awards</a>
+        <a href="#activities">Activities</a>
+        <a href="#conferences">Conferences</a>
+        <a href="#publications">Publications</a>
+    </nav>
+    <div class="content">
+        <div class="fixed-section">
+            <div class="container">
+                <section id="about" class="section">
+                    <h2>About Me</h2>
+                    <p>Senior Research Fellow at Indian Institute of Science, Bangalore with a focus on Mechanical and Aerospace Engineering.</p>
+                </section>
+            </div>
+        </div>
+        <div class="container">
+            <section id="education" class="section">
+                <h2>Education</h2>
+                <h3>Indian Institute of Science, Bangalore</h3>
+                <p>PhD in Mechanical Engineering; CGPA: 7.4 (Jan 2020 - July 2025)</p>
+                <p><strong>Courses:</strong> Fluid Mechanics, Turbomachines, Gas Dynamics, Engineering Mathematics, Solid and Fluid Phenomena at Small Scales</p>
+                <h3>Anna University, Chennai</h3>
+                <p>Master of Engineering in Aerospace Technology; CGPA: 8.22 (Aug 2017 - May 2019)</p>
+                <p><strong>Courses:</strong> Aerospace Propulsion, Aerospace Structures, Flight Vehicle Aerodynamics, Computational Fluid Dynamics for Aerospace Applications, Missile Guidance and Control, Hypersonic Aerodynamics, Theory of Boundary Layers</p>
+                <h3>Kottam College of Engineering, JNTUA-Ananthapuramu, Kurnool</h3>
+                <p>Bachelor of Technology in Aeronautical Engineering; Percentage: 85.10 (University Gold Medal) (Aug 2010 - May 2014)</p>
+            </section>
+            <section id="skills" class="section">
+                <h2>Skills</h2>
+                <p><strong>Languages:</strong> C, Python</p>
+                <p><strong>Tools:</strong> SolidWorks, Fluent, OpenFOAM, ParaView, MATLAB</p>
+            </section>
+            <section id="experience" class="section">
+                <h2>Experience</h2>
+                <h3>Indian Institute of Science, Bangalore</h3>
+                <p><strong>Senior Research Fellow</strong> (June 2022 - Present)</p>
+                <ul>
+                    <li>Conducted experiments on bluff bodies in polymer flows, VIV cylinder and bubbles interactions.</li>
+                </ul>
+                <p><strong>Junior Research Fellow</strong> (Jan 2020 - May 2022)</p>
+                <ul>
+                    <li>CFD analysis of bluff bodies in water and polymer flows.</li>
+                </ul>
+                <h3>Rajalakshmi Engineering College, Chennai</h3>
+                <p><strong>Assistant Professor</strong> (May 2019 - Dec 2019)</p>
+                <ul>
+                    <li>Taught courses on CFD and Heat Transfer. Supervised undergraduate projects.</li>
+                </ul>
+                <h3>Vikram Sarabhai Space Center, ISRO, Trivandrum</h3>
+                <p><strong>Graduate Trainee</strong> (Mar 2015 - Mar 2016)</p>
+                <ul>
+                    <li>Assisted in the development and testing of models, performed computational analysis of launch vehicles.</li>
+                </ul>
+                <h3>Jet Wings Ltd, Bangalore</h3>
+                <p><strong>Project Trainee</strong> (Jan 2014 - May 2014)</p>
+                <ul>
+                    <li>Numerical analysis of a reusable launch vehicle using various software.</li>
+                </ul>
+            </section>
+            <section id="projects" class="section">
+                <h2>Projects</h2>
+                <ul>
+                    <li><strong>CFD Analysis of Viscous Flows in the Sharp Corner of the Grid Fins</strong></li>
+                    <li><strong>Effect of Corner Angle on Growth of the Boundary Layer in Sharp Cornered Open Channel Sections</strong></li>
+                    <li><strong>Quad-copter: Assembly and Operations</strong></li>
+                </ul>
+            </section>
+            <section id="awards" class="section">
+                <h2>Honors and Awards</h2>
+                <ul>
+                    <li>University Gold Medal in Aeronautical Engineering for the batch of 2010-2014.</li>
+                    <li>Selected for the financial support scheme from the Govt. of Andhra Pradesh for high marks in Board of Intermediate Examinations, March 2010.</li>
+                </ul>
+            </section>
+            <section id="activities" class="section">
+                <h2>Co-Curricular Activities</h2>
+                <ul>
+                    <li>Running for Student Chairman position from Students Council, Indian Institute of Science.</li>
+                    <li>Volunteer for Convocation July 2024, Food Committee.</li>
+                    <li>Volunteer for Convocation July 2023, Seating Arrangement Committee.</li>
+                    <li>Mechanical Department Students Chair for Campus Open Day, 2023 and 2024.</li>
+                    <li>Food Section Volunteer for ME@75 conference, June 2022.</li>
+                    <li>Committee member of TSS (Telugu Samskruthika Samithi), Indian Institute of Science, June 2022-June 2023.</li>
+                    <li>Member of C Mess Committee, Indian Institute of Science, June 2022-June 2023.</li>
+                    <li>Placement Representative, Aerospace Department, Anna University, June 2018.</li>
+                    <li>Event organizer, Aero Modelling Competition, Anna University, March 2018.</li>
+                </ul>
+            </section>
+            <section id="conferences" class="section">
+                <h2>Conferences</h2>
+                <ul>
+                    <li><strong>International Conferences:</strong> Chiranjeevi Sadana, Raghuraman N Govardhan, "Effects of Polymer Solutions on Flow-induced Vibration Response of a Cylinder with a Flexible Splitter Plate", 5th International Conference on Mechanics of Soft and Intelligent Materials (MESOMAT 2024), ENSAM Paris (Mar 2024).</li>
+                    <li><strong>National Conferences:</strong> Chiranjeevi Sadana, Raghuraman N Govardhan, "On the Use of Polymer Solutions to Control the Response of Flexible Splitter Plate", 6th National Conference on Wind Tunnel Testing (NCWT 2023), Indian Institute of Science, Bangalore (Dec 2023).</li>
+                </ul>
+            </section>
+            <section id="publications" class="section">
+                <h2>Publications</h2>
+                <ul>
+                    <li><strong>Journal Articles:</strong> Chiranjeevi Sadana, Raghuraman N Govardhan, "Flow Characteristics and Structural Response of a Cylinder with a Flexible Splitter Plate in Polymer Solutions", Journal of Fluids and Structures, 2024 (under review).</li>
+                    <li><strong>Conference Papers:</strong> Chiranjeevi Sadana, Raghuraman N Govardhan, "Control of Cylinder Wake using Polymer Solutions and Flexible Splitter Plate", 76th Annual Meeting of APS Division of Fluid Dynamics, 2023.</li>
+                </ul>
+            </section>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>&copy; 2024 Chiranjeevi Sadana. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
